@@ -1,0 +1,2538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="AmazeUI">
+  <template name="am-animation" value="&lt;div class=&quot;$var1$&quot;&gt;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot; am-animation-reverse&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-animation:fade" value="&lt;div class=&quot;am-animation-fade$var1$&quot;&gt;fade&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot; am-animation-reverse&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-animation:scale-up" value="&lt;div class=&quot;am-animation-scale-up$var1$&quot;&gt;scale-up&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot; am-animation-reverse&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-animation:scale-down" value="&lt;div class=&quot;am-animation-scale-down$var1$&quot;&gt;scale-down&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot; am-animation-reverse&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-animation:slide-top" value="&lt;div class=&quot;am-animation-slide-top$var1$&quot;&gt;slide-top&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot; am-animation-reverse&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-animation:slide-bottom" value="&lt;div class=&quot;am-animation-slide-bottom$var1$&quot;&gt;slide-bottom&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot; am-animation-reverse&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-animation:slide-left" value="&lt;div class=&quot;am-animation-slide-left$var1$&quot;&gt;slide-left&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot; am-animation-reverse&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-animation:slide-right" value="&lt;div class=&quot;am-animation-slide-right$var1$&quot;&gt;slide-right&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot; am-animation-reverse&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-animation:shake" value="&lt;div class=&quot;am-animation-shake$var1$&quot;&gt;shake&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot; am-animation-reverse&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-animation:spin" value="&lt;div class=&quot;am-animation-spin$var1$&quot;&gt;spin&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot; am-animation-reverse&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-article" value="&lt;article class=&quot;am-article&quot;&gt;&#10;  &lt;div class=&quot;am-article-hd&quot;&gt;&#10;    &lt;h1 class=&quot;am-article-title&quot;&gt;$var1$&lt;/h1&gt;&#10;    &lt;p class=&quot;am-article-meta&quot;&gt;$var2$&lt;/p&gt;&#10;  &lt;/div&gt;&#10;&#10;  &lt;div class=&quot;am-article-bd&quot;&gt;&#10;    &lt;p class=&quot;am-article-lead&quot;&gt;$var3$&lt;/p&gt;&#10;    $var4$&#10;  &lt;/div&gt;&#10;&lt;/article&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;title&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;meta&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;lead&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-avggrid" value="&lt;ul class=&quot;am-avg-sm-$var1$ am-avg-md-$var2$ am-avg-lg-$var3$&quot;&gt;&#10;  &lt;li&gt;$var4$&lt;/li&gt;&#10;&lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-badge" value="&lt;span class=&quot;am-badge&quot;&gt;$var1$&lt;/span&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;小徽章&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-badge:primary" value="&lt;span class=&quot;am-badge am-badge-primary&quot;&gt;$var1$&lt;/span&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;小徽章&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-badge:secondary" value="&lt;span class=&quot;am-badge am-badge-secondary&quot;&gt;$var1$&lt;/span&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;小徽章&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-badge:success" value="&lt;span class=&quot;am-badge am-badge-success&quot;&gt;$var1$&lt;/span&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;小徽章&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-badge:warning" value="&lt;span class=&quot;am-badge am-badge-warning&quot;&gt;$var1$&lt;/span&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;小徽章&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-badge:danger" value="&lt;span class=&quot;am-badge am-badge-danger&quot;&gt;$var1$&lt;/span&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;小徽章&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-badge:xl" value="&lt;span class=&quot;am-badge am-badge-xl&quot;&gt;$var1$&lt;/span&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;小徽章&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-badge:lg" value="&lt;span class=&quot;am-badge am-badge-lg&quot;&gt;$var1$&lt;/span&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;小徽章&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-badge:sm" value="&lt;span class=&quot;am-badge am-badge-sm&quot;&gt;$var1$&lt;/span&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;小徽章&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-badge:xs" value="&lt;span class=&quot;am-badge am-badge-xs&quot;&gt;$var1$&lt;/span&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;小徽章&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-badge:radius" value="&lt;span class=&quot;am-badge am-badge-radius&quot;&gt;$var1$&lt;/span&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;圆角小徽章&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-badge:round" value="&lt;span class=&quot;am-badge am-badge-round&quot;&gt;$var1$&lt;/span&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;椭圆小徽章&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-breadcrumb" value="&lt;ol class=&quot;am-breadcrumb&quot;&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li class=&quot;am-active&quot;&gt;$var3$&lt;/li&gt;&#10;&lt;/ol&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;首页&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;分类&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-breadcrumb:slash" value="&lt;ol class=&quot;am-breadcrumb am-breadcrumb-slash&quot;&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li class=&quot;am-active&quot;&gt;$var3$&lt;/li&gt;&#10;&lt;/ol&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;首页&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;分类&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-breadcrumb:icon" value="&lt;ol class=&quot;am-breadcrumb&quot;&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;am-icon-$var1$&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var3$&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li class=&quot;am-active&quot;&gt;$var4$&lt;/li&gt;&#10;&lt;/ol&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;home&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;首页&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;分类&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-btn" value="&lt;button type=&quot;button&quot; class=&quot;am-btn&quot;&gt;$var1$&lt;/button&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-btn:default" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default am-btn-default&quot;&gt;$var1$&lt;/button&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-btn:primary" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default am-btn-primary&quot;&gt;$var1$&lt;/button&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-btn:secondary" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default am-btn-secondary&quot;&gt;$var1$&lt;/button&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-btn:success" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default am-btn-success&quot;&gt;$var1$&lt;/button&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-btn:warning" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default am-btn-warning&quot;&gt;$var1$&lt;/button&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-btn:danger" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default am-btn-danger&quot;&gt;$var1$&lt;/button&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-btn:xl" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default am-btn-xl&quot;&gt;$var1$&lt;/button&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-btn:lg" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default am-btn-lg&quot;&gt;$var1$&lt;/button&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-btn:sm" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default am-btn-sm&quot;&gt;$var1$&lt;/button&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-btn:xs" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default am-btn-xs&quot;&gt;$var1$&lt;/button&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-btn:block" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default am-btn-block&quot;&gt;$var1$&lt;/button&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;按钮&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-btn:disabled" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default am-disabled&quot;&gt;$var1$&lt;/button&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;disabled 按钮&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-btn:active" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default am-active&quot;&gt;$var1$&lt;/button&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;active 按钮&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-btn:round" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default am-round&quot;&gt;$var1$&lt;/button&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;round 按钮&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-btn:radius" value="&lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default am-radius&quot;&gt;$var1$&lt;/button&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;radius 按钮&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-btn-group" value="&lt;div class=&quot;am-btn-group&quot;&gt;&#10;    &lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default&quot;&gt;$var1$&lt;/button&gt;  &#10;  &lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;按钮组&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-btn-group:lg" value="&lt;div class=&quot;am-btn-group am-btn-group-lg&quot;&gt;&#10;    &lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default&quot;&gt;$var1$&lt;/button&gt;  &#10;  &lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;按钮组&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-btn-group:sm" value="&lt;div class=&quot;am-btn-group am-btn-group-sm&quot;&gt;&#10;    &lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default&quot;&gt;$var1$&lt;/button&gt;  &#10;  &lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;按钮组&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-btn-group:xs" value="&lt;div class=&quot;am-btn-group am-btn-group-xs&quot;&gt;&#10;    &lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default&quot;&gt;$var1$&lt;/button&gt;  &#10;  &lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;按钮组&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-btn-group:stacked" value="&lt;div class=&quot;am-btn-group-stacked&quot;&gt;&#10;    &lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default&quot;&gt;$var1$&lt;/button&gt;  &#10;  &lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;按钮组&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-btn-group:justify" value="&lt;div class=&quot;am-btn-group am-btn-group-justify&quot;&gt;&#10;    &lt;a class=&quot;am-btn am-btn-default&quot; role=&quot;button&quot;&gt;$var1$&lt;/a&gt;&#10;    &lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default&quot;&gt;$var2$&lt;/button&gt;  &#10;  &lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;自适应宽度&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;按钮组&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-btn-group:toolbar" value="&lt;div class=&quot;am-btn-toolbar&quot;&gt;&#10;  &lt;div class=&quot;am-btn-group am-btn-group-toolbar&quot;&gt;&#10;    &lt;button type=&quot;button&quot; class=&quot;am-btn am-btn-default&quot;&gt;$var1$&lt;/button&gt;  &#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;按钮组&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-cdn" value="&lt;!-- Latest compiled and minified CSS and JS --&gt;&#10;&lt;link rel=&quot;stylesheet&quot; href=&quot;http://cdn.amazeui.org/amazeui/2.6.1/css/amazeui.min.css&quot;&gt;&#10;&lt;script src=&quot;http://staticfile.qnssl.com/jquery/2.2.1/jquery.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;http://cdn.amazeui.org/amazeui/2.6.1/js/amazeui.min.js&quot;&gt;&lt;/script&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-cdn:css" value="&lt;!-- Latest compiled and minified css --&gt;&#10;&lt;link rel=&quot;stylesheet&quot; href=&quot;http://cdn.amazeui.org/amazeui/2.6.1/css/amazeui.min.css&quot;&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-cdn:js" value="&lt;!-- Latest compiled and minified js --&gt;&#10;&lt;script src=&quot;http://staticfile.qnssl.com/jquery/2.2.1/jquery.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;http://cdn.amazeui.org/amazeui/2.6.1/js/amazeui.min.js&quot;&gt;&lt;/script&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-close" value="&lt;button type=&quot;button&quot; class=&quot;am-close&quot;&gt;&amp;times;&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
+
+
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-close:spin" value="&lt;button type=&quot;button&quot; class=&quot;am-closeam-close-spin&quot;&gt;&amp;times;&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
+
+
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-close:alt" value="&lt;button type=&quot;button&quot; class=&quot;am-closeam-close-alt&quot;&gt;&amp;times;&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
+
+
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-code" value="&lt;pre&gt;&#10;	&lt;code&gt;&#10;		$var1$&#10;	&lt;/code&gt;&#10;&lt;/pre&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;code&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-code:scrollable" value="&lt;pre class=&quot;am-pre-scrollable&quot;&gt;&#10;	&lt;code&gt;&#10;		$var1$&#10;	&lt;/code&gt;&#10;&lt;/pre&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;code&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-comment" value="&lt;article class=&quot;am-comment&quot;&gt; &lt;!-- 评论容器 --&gt;&#10;  &lt;a href=&quot;&quot;&gt;&#10;    &lt;img class=&quot;am-comment-avatar&quot; alt=&quot;&quot;/&gt; &lt;!-- 评论者头像 --&gt;&#10;  &lt;/a&gt;&#10;&#10;  &lt;div class=&quot;am-comment-main&quot;&gt; &lt;!-- 评论内容容器 --&gt;&#10;    &lt;header class=&quot;am-comment-hd&quot;&gt;&#10;      &lt;!--&lt;h3 class=&quot;am-comment-title&quot;&gt;评论标题&lt;/h3&gt;--&gt;&#10;      &lt;div class=&quot;am-comment-meta&quot;&gt; &lt;!-- 评论元数据 --&gt;&#10;        &lt;a href=&quot;#link-to-user&quot; class=&quot;am-comment-author&quot;&gt;$var1$&lt;/a&gt; &lt;!-- 评论者 --&gt;&#10;        $var2$ &lt;time datetime=&quot;&quot;&gt;&lt;/time&gt;&#10;      &lt;/div&gt;&#10;    &lt;/header&gt;&#10;&#10;    &lt;div class=&quot;am-comment-bd&quot;&gt;$var3$&lt;/div&gt; &lt;!-- 评论内容 --&gt;&#10;  &lt;/div&gt;&#10;&lt;/article&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;评论者&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;评论于&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;评论内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-form" value="&lt;form action=&quot;$var1$&quot; method=&quot;POST&quot; role=&quot;form&quot; class=&quot;am-form&quot;&gt;&#10;  &lt;legend&gt;$var2$&lt;/legend&gt;&#10;&#10;  &lt;div class=&quot;am-form-group&quot;&gt;&#10;    &lt;label for=&quot;&quot;&gt;$var3$&lt;/label&gt;&#10;    &lt;input type=&quot;text&quot; id=&quot;&quot; placeholder=&quot;$var4$&quot;&gt;&#10;  &lt;/div&gt;&#10;&#10;  &lt;button type=&quot;submit&quot; class=&quot;am-btn am-btn-primary&quot;&gt;$var5$&lt;/button&gt;&#10;&lt;/form&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;action&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;表单标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;姓名&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;输入你的姓名&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;提交&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-form:horizontal" value="&lt;form action=&quot;$var1$&quot; method=&quot;POST&quot; role=&quot;form&quot; class=&quot;am-form am-form-horizontal&quot;&gt;&#10;  &lt;!-- form 结合 grid 使用 --&gt;&#10;  &lt;div class=&quot;am-form-group&quot;&gt;&#10;    &lt;label for=&quot;&quot; class=&quot;am-u-sm-$var2$ am-form-label&quot;&gt;$var3$&lt;/label&gt;&#10;    &lt;div class=&quot;am-u-sm-10&quot;&gt;&#10;      &lt;input type=&quot;email&quot; id=&quot;&quot; placeholder=&quot;$var4$&quot; /&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&#10;  &lt;div class=&quot;am-form-group&quot;&gt;&#10;    &lt;div class=&quot;am-u-sm-$var5$ am-u-sm-offset-$var2$&quot;&gt;&#10;      &lt;button type=&quot;submit&quot; class=&quot;am-btn am-btn-default&quot;&gt;$var7$&lt;/button&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/form&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;action&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;电子邮件&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;输入你的电子邮件&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;10&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var7" expression="&quot;提交登入&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-form:inline" value="&lt;form action=&quot;$var1$&quot; method=&quot;POST&quot; role=&quot;form&quot; class=&quot;am-form am-form-inline&quot;&gt;&#10;  &lt;legend&gt;$var2$&lt;/legend&gt;&#10;&#10;  &lt;div class=&quot;am-form-group&quot;&gt;&#10;    &lt;label for=&quot;&quot;&gt;$var3$&lt;/label&gt;&#10;    &lt;input type=&quot;text&quot; id=&quot;&quot; placeholder=&quot;$var4$&quot;&gt;&#10;  &lt;/div&gt;&#10;&#10;  &lt;button type=&quot;submit&quot; class=&quot;am-btn am-btn-primary&quot;&gt;$var5$&lt;/button&gt;&#10;&lt;/form&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;action&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;表单标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;姓名&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;输入你的姓名&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;提交&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-grid" value="&lt;div class=&quot;am-g&quot;&gt;&#10;  &lt;div class=&quot;am-u-sm-$var1$ am-u-md-$var2$ am-u-lg-$var3$&quot;&gt;&#10;    $var4$&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-grid:1" value="&lt;div class=&quot;am-g&quot;&gt;&#10;  &lt;div class=&quot;am-u-sm-1 am-u-md-1 am-u-lg-1&quot;&gt;&#10;    $var1$&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-grid:2" value="&lt;div class=&quot;am-g am-g-2&quot;&gt;&#10;  &lt;div class=&quot;am-u-sm-$var1$ am-u-md-$var2$ am-u-lg-$var3$&quot;&gt;&#10;    $var4$&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-grid:3" value="&lt;div class=&quot;am-g am-g-3&quot;&gt;&#10;  &lt;div class=&quot;am-u-sm-$var1$ am-u-md-$var2$ am-u-lg-$var3$&quot;&gt;&#10;    $var4$&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-grid:4" value="&lt;div class=&quot;am-g am-g-4&quot;&gt;&#10;  &lt;div class=&quot;am-u-sm-$var1$ am-u-md-$var2$ am-u-lg-$var3$&quot;&gt;&#10;    $var4$&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-grid:5" value="&lt;div class=&quot;am-g am-g-5&quot;&gt;&#10;  &lt;div class=&quot;am-u-sm-$var1$ am-u-md-$var2$ am-u-lg-$var3$&quot;&gt;&#10;    $var4$&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-grid:6" value="&lt;div class=&quot;am-g am-g-6&quot;&gt;&#10;  &lt;div class=&quot;am-u-sm-$var1$ am-u-md-$var2$ am-u-lg-$var3$&quot;&gt;&#10;    $var4$&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-grid:7" value="&lt;div class=&quot;am-g am-g-7&quot;&gt;&#10;  &lt;div class=&quot;am-u-sm-$var1$ am-u-md-$var2$ am-u-lg-$var3$&quot;&gt;&#10;    $var4$&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-grid:8" value="&lt;div class=&quot;am-g am-g-8&quot;&gt;&#10;  &lt;div class=&quot;am-u-sm-$var1$ am-u-md-$var2$ am-u-lg-$var3$&quot;&gt;&#10;    $var4$&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-grid:9" value="&lt;div class=&quot;am-g am-g-9&quot;&gt;&#10;  &lt;div class=&quot;am-u-sm-$var1$ am-u-md-$var2$ am-u-lg-$var3$&quot;&gt;&#10;    $var4$&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-grid:10" value="&lt;div class=&quot;am-g&quot;&gt;&#10;  &lt;div class=&quot;am-u-sm-10 am-u-md-10 am-u-lg-10&quot;&gt;&#10;    $var1$&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-grid:11" value="&lt;div class=&quot;am-g&quot;&gt;&#10;  &lt;div class=&quot;am-u-sm-11 am-u-md-11 am-u-lg-11&quot;&gt;&#10;    $var1$&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-grid:12" value="&lt;div class=&quot;am-g&quot;&gt;&#10;  &lt;div class=&quot;am-u-sm-12 am-u-md-12 am-u-lg-12&quot;&gt;&#10;    $var1$&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-grid:fixed" value="&lt;div class=&quot;am-g am-g-fixed&quot;&gt;&#10;  &lt;div class=&quot;am-u-sm-$var1$ am-u-md-$var2$ am-u-lg-$var3$&quot;&gt;&#10;    $var4$&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-grid:collapse" value="&lt;div class=&quot;am-g am-g-collapse&quot;&gt;&#10;  &lt;div class=&quot;am-u-sm-$var1$ am-u-md-$var2$ am-u-lg-$var3$&quot;&gt;&#10;    $var4$&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-grid:container" value="&lt;div class=&quot;am-container&quot;&gt;&#10;  &lt;div class=&quot;am-g&quot;&gt;&#10;    &lt;div class=&quot;am-u-sm-$var1$ am-u-md-$var2$ am-u-lg-$var3$&quot;&gt;&#10;      $var4$&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-html" value="&lt;!doctype html&gt;&#10;&lt;html class=&quot;no-js&quot;&gt;&#10;&lt;head&gt;&#10;  &lt;meta charset=&quot;utf-8&quot;&gt;&#10;  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;&#10;  &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;&#10;  &lt;meta name=&quot;keywords&quot; content=&quot;&quot;&gt;&#10;  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no&quot;&gt;&#10;  &lt;title&gt;$var1$&lt;/title&gt;&#10;&#10;  &lt;!-- Set render engine for 360 browser --&gt;&#10;  &lt;meta name=&quot;renderer&quot; content=&quot;webkit&quot;&gt;&#10;&#10;  &lt;!-- No Baidu Siteapp--&gt;&#10;  &lt;meta http-equiv=&quot;Cache-Control&quot; content=&quot;no-siteapp&quot;/&gt;&#10;&#10;  &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;i/favicon.png&quot;&gt;&#10;&#10;  &lt;!-- Add to homescreen for Chrome on Android --&gt;&#10;  &lt;meta name=&quot;mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;&#10;  &lt;link rel=&quot;icon&quot; sizes=&quot;192x192&quot; href=&quot;i/app-icon72x72@2x.png&quot;&gt;&#10;&#10;  &lt;!-- Add to homescreen for Safari on iOS --&gt;&#10;  &lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;&#10;  &lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black&quot;&gt;&#10;  &lt;meta name=&quot;apple-mobile-web-app-title&quot; content=&quot;$var2$&quot;/&gt;&#10;  &lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;i/app-icon72x72@2x.png&quot;&gt;&#10;&#10;  &lt;!-- Tile icon for Win8 (144x144 + tile color) --&gt;&#10;  &lt;meta name=&quot;msapplication-TileImage&quot; content=&quot;i/app-icon72x72@2x.png&quot;&gt;&#10;  &lt;meta name=&quot;msapplication-TileColor&quot; content=&quot;#0e90d2&quot;&gt;&#10;&#10;  &lt;!-- Amaze UI CSS --&gt;&#10;  &lt;link rel=&quot;stylesheet&quot; href=&quot;//cdn.amazeui.org/amazeui/2.1.0/css/amazeui.min.css&quot;&gt;&#10;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&#10;&lt;div&gt;$var3$&lt;/div&gt;&#10;&#10;&lt;!--[if lt IE 9]&gt;&#10;&lt;script src=&quot;//libs.useso.com/js/jquery/1.11.1/jquery.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;//cdn.staticfile.org/modernizr/2.8.3/modernizr.js&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;/js/polyfill/rem.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;//libs.useso.com/js/respond.js/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;//cdn.amazeui.org/amazeui/2.1.0/js/amazeui.legacy.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;![endif]--&gt;&#10;&#10;&lt;!--[if (gte IE 9)|!(IE)]&gt;&lt;!--&gt;&#10;&lt;script src=&quot;//libs.useso.com/js/jquery/2.1.1/jquery.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;//cdn.amazeui.org/amazeui/2.1.0/js/amazeui.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;!--&lt;![endif]--&gt;&#10;&#10;&lt;/body&gt;&#10;&lt;/html&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;你的标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;Amaze UI&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;开始写你的码...&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-icon" value="&lt;span class=&quot;am-icon-$var1$&quot;&gt;$var2$&lt;/span&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;home&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;字体图标&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-icon:sm" value="&lt;span class=&quot;am-icon-$var1$ am-icon-sm&quot;&gt;$var2$&lt;/span&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;home&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;字体图标&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-icon:md" value="&lt;span class=&quot;am-icon-$var1$ am-icon-md&quot;&gt;$var2$&lt;/span&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;home&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;字体图标&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-icon:lg" value="&lt;span class=&quot;am-icon-$var1$ am-icon-lg&quot;&gt;$var2$&lt;/span&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;home&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;字体图标&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-icon:btn" value="&lt;span class=&quot;am-icon-$var1$ am-icon-btn&quot;&gt;$var2$&lt;/span&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;home&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;字体图标&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-icon:spin" value="&lt;span class=&quot;am-icon-$var1$ am-icon-spin&quot;&gt;$var2$&lt;/span&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;home&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;字体图标&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-img" value="&lt;img alt=&quot;&quot; src=&quot;$var1$&quot; width=&quot;&quot; height=&quot;&quot; /&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;图片地址&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-img:radius" value="&lt;img class=&quot;am-radius&quot; alt=&quot;&quot; src=&quot;$var1$&quot; width=&quot;&quot; height=&quot;&quot; /&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;图片地址&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-img:round" value="&lt;img class=&quot;am-round&quot; alt=&quot;&quot; src=&quot;$var1$&quot; width=&quot;&quot; height=&quot;&quot; /&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;图片地址&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-img:circle" value="&lt;img class=&quot;am-circle&quot; alt=&quot;&quot; src=&quot;$var1$&quot; width=&quot;&quot; height=&quot;&quot; /&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;图片地址&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-img:thumbnail" value="&lt;img class=&quot;am-img-thumbnail&quot; alt=&quot;&quot; src=&quot;$var1$&quot; width=&quot;&quot; height=&quot;&quot; /&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;图片地址&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-input-group" value="&lt;div class=&quot;am-input-group&quot;&gt;&#10;  &lt;span class=&quot;am-input-group-label&quot;&gt;    &#10;    &lt;i class=&quot;am-icon-user&quot;&gt;&lt;/i&gt;    &#10;  &lt;/span&gt;&#10;  &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot;&gt;&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;Username&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-input-group:btn" value="&lt;div class=&quot;am-input-group am-input-group-btn&quot;&gt;&#10;  &lt;span class=&quot;am-input-group-btn&quot;&gt;&#10;    &lt;button class=&quot;am-btn am-btn-default&quot; type=&quot;button&quot;&gt;$var0$&lt;/button&gt;&#10;  &lt;/span&gt;&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var0" expression="&quot;&lt;span class=&quot;am-icon-search&quot;&gt;&lt;/span&gt;&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-input-group:lg" value="&lt;div class=&quot;am-input-group am-input-group-lg&quot;&gt;&#10;  &lt;span class=&quot;am-input-group-label&quot;&gt;    &#10;    &lt;i class=&quot;am-icon-user&quot;&gt;&lt;/i&gt;    &#10;  &lt;/span&gt;&#10;  &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot;&gt;&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;Username&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-input-group:sm" value="&lt;div class=&quot;am-input-group am-input-group-sm&quot;&gt;&#10;  &lt;span class=&quot;am-input-group-label&quot;&gt;    &#10;    &lt;i class=&quot;am-icon-user&quot;&gt;&lt;/i&gt;    &#10;  &lt;/span&gt;&#10;  &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot;&gt;&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;Username&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-input-group:primary" value="&lt;div class=&quot;am-input-group am-input-group-primary&quot;&gt;&#10;  &lt;span class=&quot;am-input-group-label&quot;&gt;    &#10;    &lt;i class=&quot;am-icon-user&quot;&gt;&lt;/i&gt;    &#10;  &lt;/span&gt;&#10;  &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot;&gt;&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;Username&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-input-group:secondary" value="&lt;div class=&quot;am-input-group am-input-group-secondary&quot;&gt;&#10;  &lt;span class=&quot;am-input-group-label&quot;&gt;    &#10;    &lt;i class=&quot;am-icon-user&quot;&gt;&lt;/i&gt;    &#10;  &lt;/span&gt;&#10;  &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot;&gt;&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;Username&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-input-group:success" value="&lt;div class=&quot;am-input-group am-input-group-success&quot;&gt;&#10;  &lt;span class=&quot;am-input-group-label&quot;&gt;    &#10;    &lt;i class=&quot;am-icon-user&quot;&gt;&lt;/i&gt;    &#10;  &lt;/span&gt;&#10;  &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot;&gt;&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;Username&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-input-group:warning" value="&lt;div class=&quot;am-input-group am-input-group-warning&quot;&gt;&#10;  &lt;span class=&quot;am-input-group-label&quot;&gt;    &#10;    &lt;i class=&quot;am-icon-user&quot;&gt;&lt;/i&gt;    &#10;  &lt;/span&gt;&#10;  &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot;&gt;&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;Username&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-input-group:danger" value="&lt;div class=&quot;am-input-group am-input-group-danger&quot;&gt;&#10;  &lt;span class=&quot;am-input-group-label&quot;&gt;    &#10;    &lt;i class=&quot;am-icon-user&quot;&gt;&lt;/i&gt;    &#10;  &lt;/span&gt;&#10;  &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot;&gt;&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;Username&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-list" value="&lt;ul class=&quot;am-list&quot;&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;列表内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-list:border" value="&lt;ul class=&quot;am-list am-list-border&quot;&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;列表内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-list:striped" value="&lt;ul class=&quot;am-list am-list-striped&quot;&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;列表内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-list:static" value="&lt;ul class=&quot;am-list am-list-static&quot;&gt;&#10;  &lt;li&gt;&lt;!-- 纯文字列表 --&gt;$var1$ &lt;/li&gt;&#10;&lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;列表内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-nav" value="&lt;ul class=&quot;am-nav&quot;&gt;&#10;  &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;active列表&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;列表&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-nav:pills" value="&lt;ul class=&quot;am-nav am-nav-pills&quot;&gt;&#10;  &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;active列表&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;列表&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-nav:tabs" value="&lt;ul class=&quot;am-nav am-nav-tabs&quot;&gt;&#10;  &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;active列表&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;列表&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-nav:justify" value="&lt;ul class=&quot;am-nav am-nav-justify&quot;&gt;&#10;  &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;active列表&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;列表&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-pagination" value="&lt;ul class=&quot;am-pagination&quot;&gt;&#10;  &lt;li class=&quot;am-disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;&amp;laquo;&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var3$&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&amp;raquo;&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-pagination:centered" value="&lt;ul class=&quot;am-pagination am-pagination-centered&quot;&gt;&#10;  &lt;li class=&quot;am-disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;&amp;laquo;&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var3$&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&amp;raquo;&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-pagination:right" value="&lt;ul class=&quot;am-pagination am-pagination-right&quot;&gt;&#10;  &lt;li class=&quot;am-disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;&amp;laquo;&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var3$&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&amp;raquo;&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-pagination:prevnext" value="&lt;ul class=&quot;am-pagination&quot;&gt;&#10;  &lt;li class=&quot;am-pagination-prev&quot;&gt;&lt;a href=&quot;#&quot;&gt;&amp;laquo; Prev&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li class=&quot;am-pagination-next&quot;&gt;&lt;a href=&quot;#&quot;&gt;Next &amp;raquo;&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-panel" value="&lt;section class=&quot;am-panel am-panel-default&quot;&gt;&#10;  &lt;header class=&quot;am-panel-hd&quot;&gt;&#10;    &lt;h3 class=&quot;am-panel-title&quot;&gt;$var1$&lt;/h3&gt;&#10;  &lt;/header&gt;&#10;  &lt;div class=&quot;am-panel-bd&quot;&gt;&#10;    $var2$&#10;  &lt;/div&gt;&#10;  &lt;footer class=&quot;am-panel-footer&quot;&gt;$var3$&lt;/footer&gt;&#10;&lt;/section&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;面板标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;面板内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;面板页脚&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-panel:primary" value="&lt;section class=&quot;am-panel am-panel-primary&quot;&gt;&#10;  &lt;header class=&quot;am-panel-hd&quot;&gt;&#10;    &lt;h3 class=&quot;am-panel-title&quot;&gt;$var1$&lt;/h3&gt;&#10;  &lt;/header&gt;&#10;  &lt;div class=&quot;am-panel-bd&quot;&gt;&#10;    $var2$&#10;  &lt;/div&gt;&#10;  &lt;footer class=&quot;am-panel-footer&quot;&gt;$var3$&lt;/footer&gt;&#10;&lt;/section&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;面板标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;面板内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;面板页脚&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-panel:secondary" value="&lt;section class=&quot;am-panel am-panel-secondary&quot;&gt;&#10;  &lt;header class=&quot;am-panel-hd&quot;&gt;&#10;    &lt;h3 class=&quot;am-panel-title&quot;&gt;$var1$&lt;/h3&gt;&#10;  &lt;/header&gt;&#10;  &lt;div class=&quot;am-panel-bd&quot;&gt;&#10;    $var2$&#10;  &lt;/div&gt;&#10;  &lt;footer class=&quot;am-panel-footer&quot;&gt;$var3$&lt;/footer&gt;&#10;&lt;/section&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;面板标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;面板内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;面板页脚&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-panel:success" value="&lt;section class=&quot;am-panel am-panel-success&quot;&gt;&#10;  &lt;header class=&quot;am-panel-hd&quot;&gt;&#10;    &lt;h3 class=&quot;am-panel-title&quot;&gt;$var1$&lt;/h3&gt;&#10;  &lt;/header&gt;&#10;  &lt;div class=&quot;am-panel-bd&quot;&gt;&#10;    $var2$&#10;  &lt;/div&gt;&#10;  &lt;footer class=&quot;am-panel-footer&quot;&gt;$var3$&lt;/footer&gt;&#10;&lt;/section&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;面板标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;面板内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;面板页脚&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-panel:warning" value="&lt;section class=&quot;am-panel am-panel-warning&quot;&gt;&#10;  &lt;header class=&quot;am-panel-hd&quot;&gt;&#10;    &lt;h3 class=&quot;am-panel-title&quot;&gt;$var1$&lt;/h3&gt;&#10;  &lt;/header&gt;&#10;  &lt;div class=&quot;am-panel-bd&quot;&gt;&#10;    $var2$&#10;  &lt;/div&gt;&#10;  &lt;footer class=&quot;am-panel-footer&quot;&gt;$var3$&lt;/footer&gt;&#10;&lt;/section&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;面板标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;面板内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;面板页脚&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-panel:danger" value="&lt;section class=&quot;am-panel am-panel-danger&quot;&gt;&#10;  &lt;header class=&quot;am-panel-hd&quot;&gt;&#10;    &lt;h3 class=&quot;am-panel-title&quot;&gt;$var1$&lt;/h3&gt;&#10;  &lt;/header&gt;&#10;  &lt;div class=&quot;am-panel-bd&quot;&gt;&#10;    $var2$&#10;  &lt;/div&gt;&#10;  &lt;footer class=&quot;am-panel-footer&quot;&gt;$var3$&lt;/footer&gt;&#10;&lt;/section&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;面板标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;面板内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;面板页脚&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-panel:group" value="&lt;div class=&quot;am-panel-group&quot;&gt;&#10;  &lt;section class=&quot;am-panel am-panel-default&quot;&gt;&#10;    &lt;header class=&quot;am-panel-hd&quot;&gt;&#10;      &lt;h3 class=&quot;am-panel-title&quot;&gt;$var1$&lt;/h3&gt;&#10;    &lt;/header&gt;&#10;    &lt;div class=&quot;am-panel-bd&quot;&gt;&#10;      $var2$&#10;    &lt;/div&gt;&#10;    &lt;footer class=&quot;am-panel-footer&quot;&gt;$var3$&lt;/footer&gt;&#10;  &lt;/section&gt;&#10;  &lt;section class=&quot;am-panel am-panel-default&quot;&gt;&#10;    &lt;header class=&quot;am-panel-hd&quot;&gt;&#10;      &lt;h3 class=&quot;am-panel-title&quot;&gt;$var4$&lt;/h3&gt;&#10;    &lt;/header&gt;&#10;    &lt;div class=&quot;am-panel-bd&quot;&gt;&#10;      $var5$&#10;    &lt;/div&gt;&#10;    &lt;footer class=&quot;am-panel-footer&quot;&gt;$var6$&lt;/footer&gt;&#10;  &lt;/section&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;面板标题1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;面板内容1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;面板页脚1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;面板标题2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;面板内容2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="&quot;面板页脚2&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-panel:footer" value="&lt;section class=&quot;am-panel am-panel-default&quot;&gt;&#10;  &lt;div class=&quot;am-panel-bd&quot;&gt;&#10;    $var1$&#10;  &lt;/div&gt;&#10;  &lt;footer class=&quot;am-panel-footer&quot;&gt;$var2$&lt;/footer&gt;&#10;&lt;/section&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;面板内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;面板页脚&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-panel:list" value="&lt;section class=&quot;am-panel am-panel-default&quot;&gt;&#10;  &lt;div class=&quot;am-panel-bd&quot;&gt;&#10;    $var1$&#10;  &lt;/div&gt;&#10;  &lt;ul class=&quot;am-list am-list-static&quot;&gt;&#10;    &lt;li&gt;&lt;/li&gt;&#10;  &lt;/ul&gt;&#10;  &lt;footer class=&quot;am-panel-footer&quot;&gt;$var2$&lt;/footer&gt;&#10;&lt;/section&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;面板内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;面板页脚&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-panel:table" value="&lt;section class=&quot;am-panel am-panel-default&quot;&gt;&#10;  &lt;div class=&quot;am-panel-bd&quot;&gt;&#10;    $var1$&#10;  &lt;/div&gt;&#10;  &lt;table class=&quot;am-table&quot;&gt;&#10;    &lt;thead&gt;&lt;/thead&gt;&#10;    &lt;tbody&gt;&lt;/tbody&gt;&#10;  &lt;/table&gt;&#10;  &lt;footer class=&quot;am-panel-footer&quot;&gt;$var2$&lt;/footer&gt;&#10;&lt;/section&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;面板内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;面板页脚&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-progress" value="&#10;  &lt;div class=&quot;am-progress&quot;&gt;&#10;    &lt;div class=&quot;am-progress-bar&quot; style=&quot;width: $var1$&quot;&gt;40%&lt;/div&gt;&#10;  &lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;40%&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-progress:secondary" value="&lt;div class=&quot;am-progress&quot;&gt;&#10;          &lt;div&#10;              class=&quot;am-progress-bar am-progress-bar-secondary&quot;&#10;              style=&quot;$var1$&quot;&gt;&lt;/div&gt;&#10;        &lt;/div&gt;&#10;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;width: 15%&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-progress:success" value="&lt;div class=&quot;am-progress&quot;&gt;&#10;          &lt;div&#10;              class=&quot;am-progress-bar am-progress-bar-success&quot;&#10;              style=&quot;$var1$&quot;&gt;&lt;/div&gt;&#10;        &lt;/div&gt;&#10;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;width: 15%&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-progress:warning" value="&lt;div class=&quot;am-progress&quot;&gt;&#10;          &lt;div&#10;              class=&quot;am-progress-bar am-progress-bar-warning&quot;&#10;              style=&quot;$var1$&quot;&gt;&lt;/div&gt;&#10;        &lt;/div&gt;&#10;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;width: 15%&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-progress:danger" value="&lt;div class=&quot;am-progress&quot;&gt;&#10;          &lt;div&#10;              class=&quot;am-progress-bar am-progress-bar-danger&quot;&#10;              style=&quot;$var1$&quot;&gt;&lt;/div&gt;&#10;        &lt;/div&gt;&#10;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;width: 15%&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-progress:xs" value="&lt;div class=&quot;am-progress am-progress-xs&quot;&gt;&#10;    &lt;div class=&quot;am-progress-bar&quot; style=&quot;$var1$&quot;&gt;&lt;/div&gt;&#10;  &lt;/div&gt;&#10;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;width: 15%&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-progress:sm" value="&lt;div class=&quot;am-progress am-progress-sm&quot;&gt;&#10;      &lt;div class=&quot;am-progress-bar&quot; style=&quot;$var1$&quot;&gt;&lt;/div&gt;&#10;    &lt;/div&gt;&#10;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;width: 15%&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-progress:striped" value="&lt;div class=&quot;am-progress am-progress-striped&quot;&gt;&#10;        &lt;div class=&quot;am-progress-bar&quot; style=&quot;$var1$&quot;&gt;&lt;/div&gt;&#10;      &lt;/div&gt;&#10;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;width: 15%&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-table" value="&lt;table class=&quot;am-table$var1$&quot;&gt;&#10;  &lt;thead&gt;&#10;    &lt;tr&gt;&#10;      &lt;th&gt;$var2$&lt;/th&gt;&#10;    &lt;/tr&gt;&#10;  &lt;/thead&gt;&#10;  &lt;tbody&gt;&#10;    &lt;tr&gt;&#10;      &lt;td&gt;$var3$&lt;/td&gt;&#10;    &lt;/tr&gt;&#10;    &lt;tr class=&quot;am-active&quot;&gt;&#10;      &lt;td&gt;$var4$&lt;/td&gt;&#10;    &lt;/tr&gt;&#10;  &lt;/tbody&gt;&#10;&lt;/table&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot; am-table-hover&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;表格标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;表格内容1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;active 表格内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-table:bordered" value="&lt;table class=&quot;am-table am-table-bordered$var1$&quot;&gt;&#10;  &lt;thead&gt;&#10;    &lt;tr&gt;&#10;      &lt;th&gt;$var2$&lt;/th&gt;&#10;    &lt;/tr&gt;&#10;  &lt;/thead&gt;&#10;  &lt;tbody&gt;&#10;    &lt;tr&gt;&#10;      &lt;td&gt;$var3$&lt;/td&gt;&#10;    &lt;/tr&gt;&#10;    &lt;tr class=&quot;am-active&quot;&gt;&#10;      &lt;td&gt;$var4$&lt;/td&gt;&#10;    &lt;/tr&gt;&#10;  &lt;/tbody&gt;&#10;&lt;/table&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot; am-table-hover&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;表格标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;表格内容1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;active 表格内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-table:striped" value="&lt;table class=&quot;am-table am-table-striped$var1$&quot;&gt;&#10;  &lt;thead&gt;&#10;    &lt;tr&gt;&#10;      &lt;th&gt;$var2$&lt;/th&gt;&#10;    &lt;/tr&gt;&#10;  &lt;/thead&gt;&#10;  &lt;tbody&gt;&#10;    &lt;tr&gt;&#10;      &lt;td&gt;$var3$&lt;/td&gt;&#10;    &lt;/tr&gt;&#10;    &lt;tr class=&quot;am-active&quot;&gt;&#10;      &lt;td&gt;$var4$&lt;/td&gt;&#10;    &lt;/tr&gt;&#10;  &lt;/tbody&gt;&#10;&lt;/table&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot; am-table-hover&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;表格标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;表格内容1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;active 表格内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-table:radius" value="&lt;table class=&quot;am-table am-table-radius$var1$&quot;&gt;&#10;  &lt;thead&gt;&#10;    &lt;tr&gt;&#10;      &lt;th&gt;$var2$&lt;/th&gt;&#10;    &lt;/tr&gt;&#10;  &lt;/thead&gt;&#10;  &lt;tbody&gt;&#10;    &lt;tr&gt;&#10;      &lt;td&gt;$var3$&lt;/td&gt;&#10;    &lt;/tr&gt;&#10;    &lt;tr class=&quot;am-active&quot;&gt;&#10;      &lt;td&gt;$var4$&lt;/td&gt;&#10;    &lt;/tr&gt;&#10;  &lt;/tbody&gt;&#10;&lt;/table&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot; am-table-hover&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;表格标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;表格内容1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;active 表格内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-thumbnail" value="&lt;!-- 能结合 Grid、AVG Grid 使用 --&gt;&#10;&lt;div class=&quot;am-thumbnail&quot;&gt;&#10;  &lt;img src=&quot;&quot; alt=&quot;&quot;/&gt;&#10;  &lt;h3 class=&quot;am-thumbnail-caption&quot;&gt;$var1$&lt;/h3&gt;&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;图片标题&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-topbar" value="&lt;header class=&quot;am-topbar&quot;&gt;&#10;  &lt;h1 class=&quot;am-topbar-brand&quot;&gt;&#10;      &lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&#10;  &lt;/h1&gt;&#10;  &lt;!-- screen &lt; 640 button show --&gt;&#10;  &lt;button class=&quot;am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only&quot; data-am-collapse=&quot;{target: '$var2$'}&quot;&gt;&lt;span class=&quot;am-sr-only&quot;&gt;$var3$&lt;/span&gt; &lt;span class=&quot;am-icon-bars&quot;&gt;&lt;/span&gt;&lt;/button&gt;&#10;&#10;  &lt;!-- screen &lt; 640 hide --&gt;&#10;  &lt;div class=&quot;am-collapse am-topbar-collapse&quot; id=&quot;$var4$&quot;&gt;&#10;    &lt;ul class=&quot;am-nav am-nav-pills am-topbar-nav&quot;&gt;&#10;      &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var5$&lt;/a&gt;&lt;/li&gt;&#10;      &lt;li class=&quot;am-dropdown&quot; data-am-dropdown&gt;&#10;        &lt;a class=&quot;am-dropdown-toggle&quot; data-am-dropdown-toggle href=&quot;javascript:;&quot;&gt;&#10;          $var6$ &lt;span class=&quot;am-icon-caret-down&quot;&gt;&lt;/span&gt;&#10;        &lt;/a&gt;&#10;        &lt;ul class=&quot;am-dropdown-content&quot;&gt;&#10;          &lt;li class=&quot;am-dropdown-header&quot;&gt;$var7$&lt;/li&gt;&#10;          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var8$&lt;/a&gt;&lt;/li&gt;&#10;        &lt;/ul&gt;&#10;      &lt;/li&gt;&#10;    &lt;/ul&gt;&#10;&#10;    &lt;!-- topbar-right --&gt;&#10;    &lt;div class=&quot;am-topbar-right&quot;&gt;&#10;      &lt;button class=&quot;am-btn am-btn-primary am-topbar-btn am-btn-sm&quot;&gt;$var9$&lt;/button&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/header&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;Topbar 导航条&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;#doc-topbar-collapse&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;导航切换&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;doc-topbar-collapse&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;下拉列表 active&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="&quot;下拉&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var7" expression="&quot;li header&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var8" expression="&quot;下拉列表01&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var9" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-topbar:inverse" value="&lt;header class=&quot;am-topbar am-topbar-inverse&quot;&gt;&#10;  &lt;h1 class=&quot;am-topbar-brand&quot;&gt;&#10;      &lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&#10;  &lt;/h1&gt;&#10;  &lt;!-- screen &lt; 640 button show --&gt;&#10;  &lt;button class=&quot;am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only&quot; data-am-collapse=&quot;{target: '$var2$'}&quot;&gt;&lt;span class=&quot;am-sr-only&quot;&gt;$var3$&lt;/span&gt; &lt;span class=&quot;am-icon-bars&quot;&gt;&lt;/span&gt;&lt;/button&gt;&#10;&#10;  &lt;!-- screen &lt; 640 hide --&gt;&#10;  &lt;div class=&quot;am-collapse am-topbar-collapse&quot; id=&quot;$var4$&quot;&gt;&#10;    &lt;ul class=&quot;am-nav am-nav-pills am-topbar-nav&quot;&gt;&#10;      &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var5$&lt;/a&gt;&lt;/li&gt;&#10;      &lt;li class=&quot;am-dropdown&quot; data-am-dropdown&gt;&#10;        &lt;a class=&quot;am-dropdown-toggle&quot; data-am-dropdown-toggle href=&quot;javascript:;&quot;&gt;&#10;          $var6$ &lt;span class=&quot;am-icon-caret-down&quot;&gt;&lt;/span&gt;&#10;        &lt;/a&gt;&#10;        &lt;ul class=&quot;am-dropdown-content&quot;&gt;&#10;          &lt;li class=&quot;am-dropdown-header&quot;&gt;$var7$&lt;/li&gt;&#10;          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var8$&lt;/a&gt;&lt;/li&gt;&#10;        &lt;/ul&gt;&#10;      &lt;/li&gt;&#10;    &lt;/ul&gt;&#10;&#10;    &lt;!-- topbar-right --&gt;&#10;    &lt;div class=&quot;am-topbar-right&quot;&gt;&#10;      &lt;button class=&quot;am-btn am-btn-primary am-topbar-btn am-btn-sm&quot;&gt;$var9$&lt;/button&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/header&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;Topbar 导航条&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;#doc-topbar-collapse&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;导航切换&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;doc-topbar-collapse&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;下拉列表 active&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="&quot;下拉&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var7" expression="&quot;li header&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var8" expression="&quot;下拉列表01&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var9" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-topbar:fixed-top" value="&lt;header class=&quot;am-topbar am-topbar-fixed-top&quot;&gt;&#10;  &lt;h1 class=&quot;am-topbar-brand&quot;&gt;&#10;      &lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&#10;  &lt;/h1&gt;&#10;  &lt;!-- screen &lt; 640 button show --&gt;&#10;  &lt;button class=&quot;am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only&quot; data-am-collapse=&quot;{target: '$var2$'}&quot;&gt;&lt;span class=&quot;am-sr-only&quot;&gt;$var3$&lt;/span&gt; &lt;span class=&quot;am-icon-bars&quot;&gt;&lt;/span&gt;&lt;/button&gt;&#10;&#10;  &lt;!-- screen &lt; 640 hide --&gt;&#10;  &lt;div class=&quot;am-collapse am-topbar-collapse&quot; id=&quot;$var4$&quot;&gt;&#10;    &lt;ul class=&quot;am-nav am-nav-pills am-topbar-nav&quot;&gt;&#10;      &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var5$&lt;/a&gt;&lt;/li&gt;&#10;      &lt;li class=&quot;am-dropdown&quot; data-am-dropdown&gt;&#10;        &lt;a class=&quot;am-dropdown-toggle&quot; data-am-dropdown-toggle href=&quot;javascript:;&quot;&gt;&#10;          $var6$ &lt;span class=&quot;am-icon-caret-down&quot;&gt;&lt;/span&gt;&#10;        &lt;/a&gt;&#10;        &lt;ul class=&quot;am-dropdown-content&quot;&gt;&#10;          &lt;li class=&quot;am-dropdown-header&quot;&gt;$var7$&lt;/li&gt;&#10;          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var8$&lt;/a&gt;&lt;/li&gt;&#10;        &lt;/ul&gt;&#10;      &lt;/li&gt;&#10;    &lt;/ul&gt;&#10;&#10;    &lt;!-- topbar-right --&gt;&#10;    &lt;div class=&quot;am-topbar-right&quot;&gt;&#10;      &lt;button class=&quot;am-btn am-btn-primary am-topbar-btn am-btn-sm&quot;&gt;$var9$&lt;/button&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/header&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;Topbar 导航条&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;#doc-topbar-collapse&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;导航切换&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;doc-topbar-collapse&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;下拉列表 active&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="&quot;下拉&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var7" expression="&quot;li header&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var8" expression="&quot;下拉列表01&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var9" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-topbar:fixed-bottom" value="&lt;header class=&quot;am-topbar am-topbar-fixed-bottom&quot;&gt;&#10;  &lt;h1 class=&quot;am-topbar-brand&quot;&gt;&#10;      &lt;a href=&quot;#&quot;&gt;$var1$&lt;/a&gt;&#10;  &lt;/h1&gt;&#10;  &lt;!-- screen &lt; 640 button show --&gt;&#10;  &lt;button class=&quot;am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only&quot; data-am-collapse=&quot;{target: '$var2$'}&quot;&gt;&lt;span class=&quot;am-sr-only&quot;&gt;$var3$&lt;/span&gt; &lt;span class=&quot;am-icon-bars&quot;&gt;&lt;/span&gt;&lt;/button&gt;&#10;&#10;  &lt;!-- screen &lt; 640 hide --&gt;&#10;  &lt;div class=&quot;am-collapse am-topbar-collapse&quot; id=&quot;$var4$&quot;&gt;&#10;    &lt;ul class=&quot;am-nav am-nav-pills am-topbar-nav&quot;&gt;&#10;      &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var5$&lt;/a&gt;&lt;/li&gt;&#10;      &lt;li class=&quot;am-dropdown&quot; data-am-dropdown&gt;&#10;        &lt;a class=&quot;am-dropdown-toggle&quot; data-am-dropdown-toggle href=&quot;javascript:;&quot;&gt;&#10;          $var6$ &lt;span class=&quot;am-icon-caret-down&quot;&gt;&lt;/span&gt;&#10;        &lt;/a&gt;&#10;        &lt;ul class=&quot;am-dropdown-content&quot;&gt;&#10;          &lt;li class=&quot;am-dropdown-header&quot;&gt;$var7$&lt;/li&gt;&#10;          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var8$&lt;/a&gt;&lt;/li&gt;&#10;        &lt;/ul&gt;&#10;      &lt;/li&gt;&#10;    &lt;/ul&gt;&#10;&#10;    &lt;!-- topbar-right --&gt;&#10;    &lt;div class=&quot;am-topbar-right&quot;&gt;&#10;      &lt;button class=&quot;am-btn am-btn-primary am-topbar-btn am-btn-sm&quot;&gt;$var9$&lt;/button&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/header&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;Topbar 导航条&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;#doc-topbar-collapse&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;导航切换&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;doc-topbar-collapse&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;下拉列表 active&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="&quot;下拉&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var7" expression="&quot;li header&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var8" expression="&quot;下拉列表01&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var9" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-alert" value="&lt;div class=&quot;am-alert&quot; data-am-alert&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;am-close&quot;&gt;&amp;times;&lt;/button&gt;&#10;  &lt;p&gt;$var1$&lt;/p&gt;&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-alert:success" value="&lt;div class=&quot;am-alert am-alert-success&quot; data-am-alert&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;am-close&quot;&gt;&amp;times;&lt;/button&gt;&#10;  &lt;p&gt;$var1$&lt;/p&gt;&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-alert:warning" value="&lt;div class=&quot;am-alert am-alert-warning&quot; data-am-alert&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;am-close&quot;&gt;&amp;times;&lt;/button&gt;&#10;  &lt;p&gt;$var1$&lt;/p&gt;&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-alert:danger" value="&lt;div class=&quot;am-alert am-alert-danger&quot; data-am-alert&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;am-close&quot;&gt;&amp;times;&lt;/button&gt;&#10;  &lt;p&gt;$var1$&lt;/p&gt;&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-alert:secondary" value="&lt;div class=&quot;am-alert am-alert-secondary&quot; data-am-alert&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;am-close&quot;&gt;&amp;times;&lt;/button&gt;&#10;  &lt;p&gt;$var1$&lt;/p&gt;&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-collapse" value="&lt;!-- 折叠菜单效果 --&gt;&#10;&lt;button class=&quot;am-btn am-btn-primary&quot; data-am-collapse=&quot;{target: '#$var1$'}&quot;&gt;$var2$ &lt;i class=&quot;am-icon-bars&quot;&gt;&lt;/i&gt;&lt;/button&gt;&#10;&lt;nav&gt;&#10;  &lt;ul id=&quot;$var1$&quot; class=&quot;am-nav am-collapse&quot;&gt;&#10;    &lt;li&gt;&lt;a href=&quot;&quot;&gt;$var4$&lt;/a&gt;&lt;/li&gt;&#10;    &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;&quot;&gt;$var5$&lt;/a&gt;&lt;/li&gt;&#10;  &lt;/ul&gt;&#10;&lt;/nav&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;collapse-nav&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;Menu&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;collapse-nav&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;active 标题&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-collapse:accordion" value="&lt;!-- 手风琴折叠效果 --&gt;&#10;&lt;div class=&quot;am-panel-group&quot; id=&quot;accordion&quot;&gt;&#10;  &lt;div class=&quot;am-panel am-panel-default&quot;&gt;&#10;    &lt;div class=&quot;am-panel-hd&quot;&gt;&#10;      &lt;h4 class=&quot;am-panel-title&quot; data-am-collapse=&quot;{parent: '#accordion', target: '#$var1$'}&quot;&gt;&#10;        $var2$&#10;      &lt;/h4&gt;&#10;    &lt;/div&gt;&#10;    &lt;!-- 默认显示 --&gt;&#10;    &lt;div id=&quot;$var1$&quot; class=&quot;am-panel-collapse am-collapse am-in&quot;&gt;&#10;      &lt;div class=&quot;am-panel-bd&quot;&gt;&#10;        $var4$&#10;      &lt;/div&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;am-panel am-panel-default&quot;&gt;&#10;    &lt;div class=&quot;am-panel-hd&quot;&gt;&#10;      &lt;h4 class=&quot;am-panel-title&quot; data-am-collapse=&quot;{parent: '#$var5$', target: '#$var6$'}&quot;&gt;&#10;        $var7$&#10;      &lt;/h4&gt;&#10;    &lt;/div&gt;&#10;    &lt;div id=&quot;$var6$&quot; class=&quot;am-panel-collapse am-collapse&quot;&gt;&#10;      &lt;div class=&quot;am-panel-bd&quot;&gt;&#10;        $var9$&#10;      &lt;/div&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;do-not-say-1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;标题 #1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;do-not-say-1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容 #1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;accordion&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="&quot;do-not-say-2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var7" expression="&quot;标题 #2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="&quot;do-not-say-2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var9" expression="&quot;内容 #2&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-datapicker" value="&lt;p&gt;&lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot; data-am-datepicker /&gt;&lt;/p&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;日历组件&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-datapicker:group" value="&lt;div class=&quot;am-input-group am-datepicker-date&quot; data-am-datepicker&gt;&#10;  &lt;input type=&quot;text&quot; class=&quot;am-form-field&quot; placeholder=&quot;$var1$&quot; readonly&gt;&#10;  &lt;span class=&quot;am-input-group-btn am-datepicker-add-on&quot;&gt;&#10;    &lt;button class=&quot;am-btn am-btn-default&quot; type=&quot;button&quot;&gt;&lt;span class=&quot;am-icon-calendar&quot;&gt;&lt;/span&gt; &lt;/button&gt;&#10;  &lt;/span&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;日历组件&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-dropdown" value="&lt;div class=&quot;am-dropdown&quot; data-am-dropdown&gt;&#10;&lt;button class=&quot;am-btn am-btn-primary am-dropdown-toggle&quot; data-am-dropdown-toggle&gt;$var1$ &lt;span class=&quot;am-icon-caret-down&quot;&gt;&lt;/span&gt;&lt;/button&gt;&#10;  &lt;ul class=&quot;am-dropdown-content&quot;&gt;&#10;    &lt;li class=&quot;am-dropdown-header&quot;&gt;$var2$&lt;/li&gt;&#10;    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var3$&lt;/a&gt;&lt;/li&gt;&#10;    &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var4$&lt;/a&gt;&lt;/li&gt;&#10;    &lt;li class=&quot;am-disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var5$&lt;/a&gt;&lt;/li&gt;&#10;    &lt;li class=&quot;am-divider&quot;&gt;&lt;/li&gt;&#10;  &lt;/ul&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;下拉列表&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;li&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;active li&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;disabled li&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-dropdown:up" value="&lt;div class=&quot;am-dropdown am-dropdown-up&quot; data-am-dropdown&gt;&#10;  &lt;button class=&quot;am-btn am-btn-danger am-dropdown-toggle&quot; data-am-dropdown-toggle&gt;$var1$ &lt;span class=&quot;am-icon-caret-up&quot;&gt;&lt;/span&gt;&lt;/button&gt;&#10;  &lt;ul class=&quot;am-dropdown-content&quot;&gt;&#10;    &lt;li class=&quot;am-dropdown-header&quot;&gt;$var2$&lt;/li&gt;&#10;    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;$var3$&lt;/a&gt;&lt;/li&gt;&#10;    &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var4$&lt;/a&gt;&lt;/li&gt;&#10;    &lt;li class=&quot;am-disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;$var5$&lt;/a&gt;&lt;/li&gt;&#10;    &lt;li class=&quot;am-divider&quot;&gt;&lt;/li&gt;&#10;  &lt;/ul&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;上拉列表&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;li&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;active li&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;disabled li&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-dropdown:content" value="&lt;div class=&quot;am-dropdown&quot; data-am-dropdown&gt;&#10;  &lt;button class=&quot;am-btn am-btn-success am-dropdown-toggle&quot;&gt;$var1$ &lt;span class=&quot;am-icon-caret-down&quot;&gt;&lt;/span&gt;&lt;/button&gt;&#10;  &lt;div class=&quot;am-dropdown-content&quot;&gt;&#10;    $var2$&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;Dropdown&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-dropdown:justify" value="&lt;div id=&quot;$var1$&quot;&gt;&#10;  &lt;div class=&quot;am-dropdown&quot; data-am-dropdown=&quot;{justify: '#$var1$'}&quot;&gt;&#10;    &lt;button class=&quot;am-btn am-btn-success am-dropdown-toggle&quot;&gt;$var3$&lt;span class=&quot;am-icon-caret-down&quot;&gt;&lt;/span&gt;&lt;/button&gt;&#10;    &lt;div class=&quot;am-dropdown-content&quot;&gt;&#10;      &lt;h2&gt;$var4$&lt;/h2&gt;&#10;      &lt;p&gt;&#10;        $var5$&#10;      &lt;/p&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;doc-dropdown-justify&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;doc-dropdown-justify&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;宽度适应下拉&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-modal" value="&lt;!-- 触发 button --&gt;&#10;&lt;button class=&quot;am-btn am-btn-primary&quot; data-am-modal&gt;$var1$&lt;/button&gt;&#10;&lt;div class=&quot;am-modal am-modal-no-btn&quot; tabindex=&quot;-1&quot;&gt;&#10;  &lt;div class=&quot;am-modal-dialog&quot;&gt;&#10;    &lt;div class=&quot;am-modal-hd&quot;&gt;$var2$&#10;      &lt;a href=&quot;javascript: void(0)&quot; class=&quot;am-close am-close-spin&quot; data-am-modal-close&gt;&amp;times;&lt;/a&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;am-modal-bd&quot;&gt;&#10;      $var3$&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;Modal&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;Modal 标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;Modal 内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-modal:alert" value="&lt;!-- 触发 button --&gt;&#10;&lt;button class=&quot;am-btn am-btn-secondary&quot; data-am-modal=&quot;{target: '#$var1$'}&quot;&gt;alert&lt;/button&gt;&#10;&lt;div class=&quot;am-modal am-modal-alert&quot; tabindex=&quot;-1&quot; id=&quot;$var2$&quot;&gt;&#10;  &lt;div class=&quot;am-modal-dialog&quot;&gt;&#10;    &lt;div class=&quot;am-modal-hd&quot;&gt;$var3$&lt;/div&gt;&#10;    &lt;div class=&quot;am-modal-bd&quot;&gt;&#10;      $var4$&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;am-modal-footer&quot;&gt;&#10;      &lt;span class=&quot;am-modal-btn&quot;&gt;确定&lt;/span&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;my-id&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;my-alert&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;Modal Alert 标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;Hello world！&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-modal:confirm" value="&lt;!-- 触发 button --&gt;&#10;&lt;button class=&quot;am-btn am-btn-secondary&quot; data-am-modal=&quot;{target: '#$var1$'}&quot;&gt;confirm&lt;/button&gt;&#10;&lt;div class=&quot;am-modal am-modal-confirm&quot; tabindex=&quot;-1&quot; id=&quot;$var2$&quot;&gt;&#10;  &lt;div class=&quot;am-modal-dialog&quot;&gt;&#10;    &lt;div class=&quot;am-modal-hd&quot;&gt;$var3$&lt;/div&gt;&#10;    &lt;div class=&quot;am-modal-bd&quot;&gt;&#10;      $var4$&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;am-modal-footer&quot;&gt;&#10;      &lt;span class=&quot;am-modal-btn&quot; data-am-modal-cancel&gt;取消&lt;/span&gt;&#10;      &lt;span class=&quot;am-modal-btn&quot; data-am-modal-confirm&gt;确定&lt;/span&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;&lt;div class=&quot;am-modal am-modal-prompt&quot; tabindex=&quot;-1&quot; id=&quot;$var5$&quot;&gt;&#10;  &lt;div class=&quot;am-modal-dialog&quot;&gt;&#10;    &lt;div class=&quot;am-modal-hd&quot;&gt;$var6$&lt;/div&gt;&#10;    &lt;div class=&quot;am-modal-bd&quot;&gt;&#10;      $var4$&#10;      &lt;input type=&quot;text&quot; class=&quot;am-modal-prompt-input&quot;&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;am-modal-footer&quot;&gt;&#10;      &lt;span class=&quot;am-modal-btn&quot; data-am-modal-cancel&gt;取消&lt;/span&gt;&#10;      &lt;span class=&quot;am-modal-btn&quot; data-am-modal-confirm&gt;提交&lt;/span&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;my-id&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;my-confirm&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;confirm title&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;my-prompt&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="&quot;标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-modal:prompt" value="&lt;!-- 触发 button --&gt;&#10;&lt;button class=&quot;am-btn am-btn-secondary&quot; data-am-modal=&quot;{target: '#$var1$'}&quot;&gt;prompt&lt;/button&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;my-id&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-modal:loading" value="&lt;!-- 触发 button --&gt;&#10;&lt;button class=&quot;am-btn am-btn-secondary&quot; data-am-modal=&quot;{target: '#$var1$'}&quot;&gt;loading&lt;/button&gt;&#10;&lt;div class=&quot;am-modal am-modal-loading am-modal-no-btn&quot; tabindex=&quot;-1&quot; id=&quot;$var2$&quot;&gt;&#10;  &lt;div class=&quot;am-modal-dialog&quot;&gt;&#10;    &lt;div class=&quot;am-modal-hd&quot;&gt;$var3$&lt;/div&gt;&#10;    &lt;div class=&quot;am-modal-bd&quot;&gt;&#10;      &lt;span class=&quot;am-icon-spinner am-icon-spin&quot;&gt;&lt;/span&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;my-id&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;my-modal-loading&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;正在载入...&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-modal:actions" value="&lt;!-- 触发 button --&gt;&#10;&lt;button class=&quot;am-btn am-btn-secondary&quot; data-am-modal=&quot;{target: '#$var1$'}&quot;&gt;actions&lt;/button&gt;&#10;&lt;div class=&quot;am-modal-actions&quot; id=&quot;$var2$&quot;&gt;&#10;  &lt;div class=&quot;am-modal-actions-group&quot;&gt;&#10;    &lt;ul class=&quot;am-list&quot;&gt;&#10;      &lt;li class=&quot;am-modal-actions-header&quot;&gt;&lt;/li&gt;&#10;      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;span class=&quot;am-icon-$var3$&quot;&gt;&lt;/span&gt;$var4$&lt;/a&gt;&lt;/li&gt;&#10;      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;am-icon-$var5$&quot;&gt;&lt;/i&gt;$var6$&lt;/a&gt;&lt;/li&gt;&#10;      &lt;li class=&quot;am-modal-actions-danger&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;am-icon-$var7$&quot;&gt;&lt;/i&gt; $var8$ &lt;/a&gt;&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;am-modal-actions-group&quot;&gt;&#10;    &lt;button class=&quot;am-btn am-btn-secondary am-btn-block&quot; data-am-modal-close&gt;$var9$&lt;/button&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;my-id&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;my-actions&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;wechat&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;wechat 标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;mobile&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="&quot;mobile 标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var7" expression="&quot;twitter&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var8" expression="&quot;twitter 标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var9" expression="&quot;取消&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-modal:popup" value="&lt;!-- 触发 button --&gt;&#10;&lt;button class=&quot;am-btn am-btn-secondary&quot; data-am-modal=&quot;{target: '#$var1$'}&quot;&gt;popup&lt;/button&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;my-id&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-offcanvas" value="&lt;!-- 按钮触发器 --&gt;&#10;&lt;button class=&quot;am-btn am-btn-primary&quot; data-am-offcanvas=&quot;{target: '$var1$'}&quot;&gt;$var2$&lt;/button&gt;&#10;&lt;!-- 侧边栏内容 --&gt;&#10;&lt;div id=&quot;$var3$&quot; class=&quot;am-offcanvas&quot;&gt;&#10;  &lt;div class=&quot;am-offcanvas-bar&quot;&gt;&#10;    &lt;div class=&quot;am-offcanvas-content&quot;&gt;&#10;    &lt;!-- 你的内容 --&gt;&#10;    $var4$&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;#your-id&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;点击显示侧边栏&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;your-id&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-offcanvas:flip" value="&lt;!-- 按钮触发器 --&gt;&#10;&lt;button class=&quot;am-btn am-btn-primary&quot; data-am-offcanvas=&quot;{target: '$var1$'}&quot;&gt;$var2$&lt;/button&gt;&#10;&lt;!-- 侧边栏内容 --&gt;&#10;&lt;div id=&quot;$var3$&quot; class=&quot;am-offcanvas&quot;&gt;&#10;  &lt;div class=&quot;am-offcanvas-bar am-offcanvas-bar-flip&quot;&gt;&#10;    &lt;div class=&quot;am-offcanvas-content&quot;&gt;&#10;    &lt;!-- 你的内容 --&gt;&#10;    $var4$&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;#your-id&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;点击显示侧边栏&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;your-id&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-popover" value="&lt;button class=&quot;am-btn am-btn-success&quot; data-am-popover=&quot;{content: '$var1$', trigger: 'hover focus'}&quot;&gt;&#10;  $var2$&#10;&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;Popover&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-scrollspy" value="&lt;div data-am-scrollspy=&quot;'{animation: ''$var1$'}&quot;&gt;&#10;  $var2$&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;, delay: 3000, repeat: false&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-scrollspy:fade" value="&lt;div data-am-scrollspy=&quot;'{animation: 'fade'$var1$'}&quot;&gt;&#10;  $var2$&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;, delay: 3000, repeat: false&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-scrollspy:scale-up" value="&lt;div data-am-scrollspy=&quot;'{animation: 'scale-up'$var1$'}&quot;&gt;&#10;  $var2$&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;, delay: 3000, repeat: false&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-scrollspy:scale-down" value="&lt;div data-am-scrollspy=&quot;'{animation: 'scale-down'$var1$'}&quot;&gt;&#10;  $var2$&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;, delay: 3000, repeat: false&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-scrollspy:slide-top" value="&lt;div data-am-scrollspy=&quot;'{animation: 'slide-top'$var1$'}&quot;&gt;&#10;  $var2$&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;, delay: 3000, repeat: false&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-scrollspy:slide-bottom" value="&lt;div data-am-scrollspy=&quot;'{animation: 'slide-bottom'$var1$'}&quot;&gt;&#10;  $var2$&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;, delay: 3000, repeat: false&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-scrollspy:slide-left" value="&lt;div data-am-scrollspy=&quot;'{animation: 'slide-left'$var1$'}&quot;&gt;&#10;  $var2$&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;, delay: 3000, repeat: false&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-scrollspy:slide-right" value="&lt;div data-am-scrollspy=&quot;'{animation: 'slide-right'$var1$'}&quot;&gt;&#10;  $var2$&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;, delay: 3000, repeat: false&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-scrollspy:shake" value="&lt;div data-am-scrollspy=&quot;'{animation: 'shake'$var1$'}&quot;&gt;&#10;  $var2$&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;, delay: 3000, repeat: false&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-scrollspy-nav" value="&lt;nav class=&quot;scrollspy-nav&quot; data-am-scrollspy-nav data-am-sticky&gt;&#10;  &lt;ul&gt;&#10;    &lt;li&gt;&lt;a href=&quot;#$var1$&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;&#10;  &lt;/ul&gt;&#10;&lt;/nav&gt;&#10;&lt;div id=&quot;$var1$&quot;&gt;&#10;  $var4$&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;title&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var1" expression="&quot;title&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;侦测滚动&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-selected" value="&lt;select data-am-selected&gt;&#10;  &lt;option value=&quot;$var1$&quot;&gt;$var2$&lt;/option&gt;&#10;  &lt;option value=&quot;$var3$&quot; selected&gt;$var4$&lt;/option&gt;&#10;&lt;/select&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;a1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;title&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;a2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;selected&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-selected:multiple" value="&lt;select multiple data-am-selected&gt;&#10;  &lt;option value=&quot;$var1$&quot;&gt;$var2$&lt;/option&gt;&#10;  &lt;option value=&quot;$var3$&quot; selected&gt;$var4$&lt;/option&gt;&#10;&lt;/select&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;a1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;title&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;a2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;selected&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-selected:group" value="&lt;select multiple data-am-selected&gt;&#10;  &lt;optgroup label=&quot;group1&quot;&gt;&#10;    &lt;option value=&quot;$var1$&quot;&gt;$var2$&lt;/option&gt;&#10;    &lt;option value=&quot;$var3$&quot; selected&gt;$var4$&lt;/option&gt;&#10;  &lt;/optgroup&gt;&#10;  &lt;optgroup label=&quot;group2&quot;&gt;&#10;    &lt;option value=&quot;$var5$&quot;&gt;$var6$&lt;/option&gt;&#10;    &lt;option value=&quot;$var7$&quot; selected&gt;$var8$&lt;/option&gt;&#10;  &lt;/optgroup&gt;&#10;&lt;/select&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;a1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;title #1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;a2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;selected #1&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var5" expression="&quot;a3&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var6" expression="&quot;title #2&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var7" expression="&quot;a4&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var8" expression="&quot;selected #2&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-slider" value="&lt;div class=&quot;am-slider am-slider-default&quot; data-am-flexslider&gt;&#10;  &lt;ul class=&quot;am-slides&quot;&gt;&#10;    &lt;li&gt;&lt;img src=&quot;$var1$&quot; /&gt;&lt;/li&gt;&#10;  &lt;/ul&gt;&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;图片地址&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-smoothscroll" value="&lt;button data-am-smooth-scroll type=&quot;button&quot;&gt;$var1$&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;滚动到顶部&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-sticky" value="&lt;div data-am-sticky&gt;&#10;  &lt;button class=&quot;am-btn am-btn-primary am-btn-block&quot;&gt;$var1$&lt;/button&gt;&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;Stick to top&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-tabs" value="&lt;div class=&quot;am-tabs&quot; data-am-tabs&gt;&#10;  &lt;ul class=&quot;am-tabs-nav am-nav am-nav-tabs&quot;&gt;&#10;    &lt;li class=&quot;am-active&quot;&gt;&lt;a href=&quot;#tab1&quot;&gt;$var1$&lt;/a&gt;&lt;/li&gt;&#10;    &lt;li&gt;&lt;a href=&quot;#tab2&quot;&gt;$var2$&lt;/a&gt;&lt;/li&gt;&#10;  &lt;/ul&gt;&#10;&#10;  &lt;div class=&quot;am-tabs-bd&quot;&gt;&#10;    &lt;div class=&quot;am-tab-panel am-fade am-in am-active&quot; id=&quot;tab1&quot;&gt;&#10;      $var3$&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;am-tab-panel am-fade&quot; id=&quot;tab2&quot;&gt;&#10;      $var4$&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;active 标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;标题&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var3" expression="&quot;active 内容&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var4" expression="&quot;内容&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-ucheck" value="&lt;label class=&quot;am-checkbox&quot;&gt;&#10;  &lt;input type=&quot;$var1$&quot; value=&quot;&quot; data-am-ucheck&gt; $var2$&#10;&lt;/label&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;checkbox&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;title&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-ucheck:checked" value="&lt;label class=&quot;am-checkbox&quot;&gt;&#10;  &lt;input type=&quot;$var1$&quot; value=&quot;&quot; data-am-ucheck checked&gt; $var2$&#10;&lt;/label&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;checkbox&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;checked&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>  <template name="am-ucheck:disabled" value="&lt;label class=&quot;am-checkbox&quot;&gt;&#10;  &lt;input type=&quot;$var1$&quot; value=&quot;&quot; data-am-ucheck disabled&gt; $var2$&#10;&lt;/label&gt;&#10;" toReformat="true" toShortenFQNames="true">
+
+    <variable name="var1" expression="&quot;checkbox&quot;" defaultValue="" alwaysStopAt="true" />    <variable name="var2" expression="&quot;disabled&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSP" value="true" />
+      <option name="PHP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>
+</templateSet>

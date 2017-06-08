@@ -1,0 +1,49 @@
+<!doctype html>
+<html class="no-js fixed-layout">
+<head>
+  {include file="public/css" /}
+  <meta name="apple-mobile-web-app-title" content="管理界面" />
+  <link rel="stylesheet" href="__ASSETS__/css/amazeui.min.css"/>
+  <link rel="stylesheet" href="__ASSETS__/css/admin.css">
+
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browsehappy">你正在使用<strong>过时</strong>的浏览器，Amaze UI 暂不支持。 请 <a href="http://browsehappy.com/" target="_blank">升级浏览器</a>
+  以获得更好的体验！</p>
+<![endif]-->
+
+{include file="public/admin-header" /}
+
+<div class="am-cf admin-main">
+  <!-- sidebar start -->
+  {include file="public/admin-sidebar" /}
+  <!-- sidebar end -->
+
+  <!-- content start -->
+  <div class="admin-content">
+    <!--正文-->
+    <div class="admin-content-body">
+      {include file="public/index" /}
+    </div>
+<!--正文结束-->
+  {include file="public/footer" /}
+  <!-- content end -->
+
+</div>
+
+<a href="#" class="am-icon-btn am-icon-th-list am-show-sm-only admin-menu" data-am-offcanvas="{target: '#admin-offcanvas'}"></a>
+
+<!--[if lt IE 9]>
+<script src="__ASSETS__/js/jquery1.1.1.min.js"></script>
+<script src="__ASSETS__/js/modernizr2.8.3.js"></script>
+<script src="__ASSETS__/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="__ASSETS__/js/jquery.min.js"></script>
+<!--<![endif]-->
+<script src="__ASSETS__/js/amazeui.min.js"></script>
+<script src="__ASSETS__/js/app.js"></script>
+</body>
+</html>
